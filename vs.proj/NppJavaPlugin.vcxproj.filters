@@ -1,0 +1,187 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="PluginInfrastructure">
+      <UniqueIdentifier>{e19dc671-44ce-4277-83b3-59defa9bea29}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="PluginInfrastructure\DockingFeature">
+      <UniqueIdentifier>{cd05c61a-0b9c-4326-9db6-f7337139418c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Actions">
+      <UniqueIdentifier>{621b5645-d519-412b-bb5c-2b1563fde509}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Command">
+      <UniqueIdentifier>{b52eebe0-ee4d-4cd7-a87a-c34969562337}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Configuration">
+      <UniqueIdentifier>{1e26388c-91c9-4fa5-b1c5-22c88acb7588}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Components">
+      <UniqueIdentifier>{0e4bbd0a-bdbc-49c6-b67d-a4d23efbdea5}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\src\PluginInfrastructure\menuCmdID.h">
+      <Filter>PluginInfrastructure</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\PluginInfrastructure\Notepad_plus_msgs.h">
+      <Filter>PluginInfrastructure</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\PluginInfrastructure\PluginDefinition.h">
+      <Filter>PluginInfrastructure</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\PluginInfrastructure\PluginInterface.h">
+      <Filter>PluginInfrastructure</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\PluginInfrastructure\Sci_Position.h">
+      <Filter>PluginInfrastructure</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\PluginInfrastructure\Scintilla.h">
+      <Filter>PluginInfrastructure</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\PluginInfrastructure\DockingFeature\Docking.h">
+      <Filter>PluginInfrastructure\DockingFeature</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\PluginInfrastructure\DockingFeature\DockingDlgInterface.h">
+      <Filter>PluginInfrastructure\DockingFeature</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\PluginInfrastructure\DockingFeature\dockingResource.h">
+      <Filter>PluginInfrastructure\DockingFeature</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\PluginInfrastructure\DockingFeature\StaticDialog.h">
+      <Filter>PluginInfrastructure\DockingFeature</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\PluginInfrastructure\DockingFeature\Window.h">
+      <Filter>PluginInfrastructure\DockingFeature</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\PluginInfrastructure\NppPlugin.h">
+      <Filter>PluginInfrastructure</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\NppJavaPlugin.h" />
+    <ClInclude Include="..\src\Actions\Action.h">
+      <Filter>Actions</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Actions\CompileAction.h">
+      <Filter>Actions</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Actions\CompileAndRunAction.h">
+      <Filter>Actions</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Actions\RunAction.h">
+      <Filter>Actions</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Actions\ShowHideJavaConsoleAction.h">
+      <Filter>Actions</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Actions\ClearConsoleAction.h">
+      <Filter>Actions</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Command\Command.h">
+      <Filter>Command</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Command\CommandPrompt.h">
+      <Filter>Command</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Command\LoggingCommand.h">
+      <Filter>Command</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Configuration\Configuration.h">
+      <Filter>Configuration</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Components\CRichEdit.h">
+      <Filter>Components</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Components\NppGateway.h">
+      <Filter>Components</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Components\JavaConsole.h">
+      <Filter>Components</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Components\ConsoleLogger.h">
+      <Filter>Components</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Components\Utils.h">
+      <Filter>Components</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\NppJavaPluginResources.h" />
+    <ClInclude Include="..\src\Configuration\ConfigurationProvider.h">
+      <Filter>Configuration</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Configuration\ConfigurationValidator.h">
+      <Filter>Configuration</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Actions\ShowAboutDialogAction.h">
+      <Filter>Actions</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Components\AboutDialog.h">
+      <Filter>Components</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\PluginInfrastructure\resource.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\src\PluginInfrastructure\NppPluginMain.cpp">
+      <Filter>PluginInfrastructure</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\PluginInfrastructure\PluginDefinition.cpp">
+      <Filter>PluginInfrastructure</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\PluginInfrastructure\DockingFeature\StaticDialog.cpp">
+      <Filter>PluginInfrastructure\DockingFeature</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\NppJavaPlugin.cpp" />
+    <ClCompile Include="..\src\Actions\CompileAction.cpp">
+      <Filter>Actions</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Actions\CompileAndRunAction.cpp">
+      <Filter>Actions</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Actions\RunAction.cpp">
+      <Filter>Actions</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Actions\ShowHideJavaConsoleAction.cpp">
+      <Filter>Actions</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Actions\ClearConsoleAction.cpp">
+      <Filter>Actions</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Command\CommandPrompt.cpp">
+      <Filter>Command</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Command\LoggingCommand.cpp">
+      <Filter>Command</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Configuration\Configuration.cpp">
+      <Filter>Configuration</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Components\CRichEdit.cpp">
+      <Filter>Components</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Components\NppGateway.cpp">
+      <Filter>Components</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Components\JavaConsole.cpp">
+      <Filter>Components</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Components\Utils.cpp">
+      <Filter>Components</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Configuration\ConfigurationProvider.cpp">
+      <Filter>Configuration</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Configuration\ConfigurationValidator.cpp">
+      <Filter>Configuration</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Actions\ShowAboutDialogAction.cpp">
+      <Filter>Actions</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Components\AboutDialog.cpp">
+      <Filter>Components</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="..\src\PluginInfrastructure\NppPluginMain.rc">
+      <Filter>PluginInfrastructure</Filter>
+    </ResourceCompile>
+    <ResourceCompile Include="..\src\NppJavaPlugin.rc" />
+  </ItemGroup>
+</Project>
