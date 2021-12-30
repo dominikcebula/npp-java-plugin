@@ -1,3 +1,5 @@
+[![Build status](https://ci.appveyor.com/api/projects/status/2n6fgm5hbwv3ntsn?svg=true)](https://ci.appveyor.com/project/DominikCebula/npp-java-plugin)
+
 # Introduction
 
 ## What is NppJavaPlugin?
