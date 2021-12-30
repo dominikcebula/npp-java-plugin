@@ -67,7 +67,7 @@ If you need more information, more precise instructions can be found here: https
 ## Manual
 
 1. Download ZIP file from https://github.com/dominikcebula/npp-java-plugin/releases
-2. Unpack ZIP file to your Notepad++ installation folder, for example “C:\Program Files\Notepad++\plugins”
+2. Unpack ZIP file to your Notepad++ installation folder, for example “C:\Program Files\Notepad++\plugins\NppJavaPlugin”
 
 If you need more information, more precise instructions can be found here: https://npp-user-manual.org/docs/plugins/#install-plugin-manually
 
