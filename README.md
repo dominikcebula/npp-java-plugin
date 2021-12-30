@@ -58,8 +58,8 @@ Those can be changed using Settings -> Shortcut Mapper -> Plugin commands option
 ## Automatic
 
 1. Go to Plugins -> Plugins Admin
-2. Search for NppJavaPlugin
-3. Check NppJavaPlugin
+2. Search for "Java Plugin"
+3. Check "Java Plugin"
 4. Click Install
 
 If you need more information, more precise instructions can be found here: https://npp-user-manual.org/docs/plugins/#install-using-plugins-admin
