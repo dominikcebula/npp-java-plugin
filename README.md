@@ -1,4 +1,5 @@
 [![Build status](https://ci.appveyor.com/api/projects/status/2n6fgm5hbwv3ntsn?svg=true)](https://ci.appveyor.com/project/DominikCebula/npp-java-plugin)
+[![GitHub release](https://img.shields.io/github/release/dominikcebula/npp-java-plugin.svg)](https://github.com/dominikcebula/npp-java-plugin/releases)
 
 # Introduction
 
