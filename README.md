@@ -109,5 +109,3 @@ You are more than welcome to contribute, but please keep in mind few rules:
 Dominik Cebula <br/>
 dominikcebula@gmail.com <br/>
 http://dominikcebula.com/ <br/>
-
-google-site-verification: google580c210f12905d8a.html
