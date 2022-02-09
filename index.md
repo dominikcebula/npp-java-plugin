@@ -41,7 +41,7 @@ Yes, by default following keyboard shortcuts are configured:
 * Clear Java Console - Shift + F11
 * Show/Hide Java Console - Shift + F12
 
-Those can be changed using Settings -> Shortcut Mapper -> Plugin commands option. If you need more information, more precise instructions can be found here: https://npp-user-manual.org/docs/preferences/#shortcut-mapper
+Those can be changed using Settings -> Shortcut Mapper -> Plugin commands option. If you need more information, more precise instructions can be found here: [https://npp-user-manual.org/docs/preferences/#shortcut-mapper](https://npp-user-manual.org/docs/preferences/#shortcut-mapper)
 
 # Installation
 
@@ -51,10 +51,10 @@ Those can be changed using Settings -> Shortcut Mapper -> Plugin commands option
    * Plugin should work with any version
    * Plugin should work with any Java distribution
    * Here are some links on where you can download JDK:
-      * https://adoptium.net/
-      * https://www.oracle.com/java/technologies/downloads/
+      * [https://adoptium.net/](https://adoptium.net/)
+      * [https://www.oracle.com/java/technologies/downloads/](https://www.oracle.com/java/technologies/downloads/)
 * JAVA_HOME system property is set
-   * https://www.baeldung.com/java-home-on-windows-7-8-10-mac-os-x-linux#windows
+   * [https://www.baeldung.com/java-home-on-windows-7-8-10-mac-os-x-linux#windows](https://www.baeldung.com/java-home-on-windows-7-8-10-mac-os-x-linux#windows)
 
 ## Automatic
 
@@ -63,14 +63,14 @@ Those can be changed using Settings -> Shortcut Mapper -> Plugin commands option
 3. Check "Java Plugin"
 4. Click Install
 
-If you need more information, more precise instructions can be found here: https://npp-user-manual.org/docs/plugins/#install-using-plugins-admin
+If you need more information, more precise instructions can be found here: [https://npp-user-manual.org/docs/plugins/#install-using-plugins-admin](https://npp-user-manual.org/docs/plugins/#install-using-plugins-admin)
 
 ## Manual
 
-1. Download ZIP file from https://github.com/dominikcebula/npp-java-plugin/releases
+1. Download ZIP file from [https://github.com/dominikcebula/npp-java-plugin/releases](https://github.com/dominikcebula/npp-java-plugin/releases)
 2. Unpack ZIP file to your Notepad++ installation folder, for example “C:\Program Files\Notepad++\plugins\NppJavaPlugin”
 
-If you need more information, more precise instructions can be found here: https://npp-user-manual.org/docs/plugins/#install-plugin-manually
+If you need more information, more precise instructions can be found here: [https://npp-user-manual.org/docs/plugins/#install-plugin-manually](https://npp-user-manual.org/docs/plugins/#install-plugin-manually)
 
 # Ideas for future versions
 
@@ -107,5 +107,5 @@ You are more than welcome to contribute, but please keep in mind few rules:
 # Author
 
 Dominik Cebula <br/>
-dominikcebula@gmail.com <br/>
+[dominikcebula@gmail.com](mailto:dominikcebula@gmail.com) <br/>
 [http://dominikcebula.com/](http://dominikcebula.com/) <br/>
