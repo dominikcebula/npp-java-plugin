@@ -7,7 +7,7 @@
 
 NppJavaPlugin is a Java Plugin for Notepad++, which allows you to compile and run Java code directly from Notepad++.
 
-![npp-java-plugin-screenshot](/npp-java-plugin/npp-java-plugin-screenshot.png)
+![npp-java-plugin-screenshot](npp-java-plugin-screenshot.png)
 
 ## Why would I want to use NppJavaPlugin?
 
