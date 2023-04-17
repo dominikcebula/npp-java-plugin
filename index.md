@@ -110,4 +110,5 @@ You are more than welcome to contribute, but please keep in mind few rules:
 
 Dominik Cebula <br/>
 [dominikcebula@gmail.com](mailto:dominikcebula@gmail.com) <br/>
-[http://dominikcebula.com/](http://dominikcebula.com/) <br/>
+[https://dominikcebula.com/](https://dominikcebula.com/) <br/>
+[https://blog.dominikcebula.com/](https://blog.dominikcebula.com/) <br/>
