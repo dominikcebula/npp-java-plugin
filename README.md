@@ -3,6 +3,7 @@
 
 # Introduction
 
+
 ## What is NppJavaPlugin?
 
 NppJavaPlugin is a Java Plugin for Notepad++, which allows you to compile and run Java code directly from Notepad++.
