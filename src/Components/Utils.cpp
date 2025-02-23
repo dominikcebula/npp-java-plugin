@@ -32,7 +32,7 @@ namespace NppJavaPlugin {
 		HDC hDC = GetDC(hWnd);
 		if (hDC != NULL)
 		{
-			twips = MulDiv(pixels, PER_INCH_VALUE, GetDeviceCaps(hDC, LOGPIXELSY));
+			twips = MulDiv(pixels, PER_INCH_VALUE, 96);//GetDeviceCaps(hDC, LOGPIXELSY));
 			ReleaseDC(hWnd, hDC);
 		}
 

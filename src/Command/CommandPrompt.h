@@ -2,6 +2,7 @@
 
 #include "Components/ConsoleLogger.h"
 #include "Command.h"
+#include <memory>
 
 namespace NppJavaPlugin {
 
