@@ -62,7 +62,7 @@ artifacts:
 deploy:
     provider: GitHub
     auth_token:
-        secure: !!TODO, see https://www.appveyor.com/docs/deployment/github/#provider-settings!!
+        secure: DZ/KWUDB4LA/rqawRWFF8zxfukv4/qmZkaxW74U6U84ykBjoGHtrT3hG4/la1m0WKZ+kGm9ZdRjW/2YM61bm83mKMwoVIDmhmqWle6nfLWCQ1ZMvVGGBD1fRT+kdQPC5
     artifact: releases
     draft: false
     prerelease: false
