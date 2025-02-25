@@ -16,6 +16,7 @@ NppJavaPlugin was created with following use cases in mind:
 * Simple Code Creation for Education Purposes
 * Preparing for a Coding Interview (Amazon, Facebook, Google, Netflix, …)
 * Preparing for a Java Certification
+   * Oracle Certified Professional: Java SE 21 Developer Professional (1Z0-830)
    * Oracle Certified Professional: Java SE 17 Developer (1Z0-829)
    * Oracle Certified Professional: Java SE 11 Developer (1Z0-819)
    * Oracle Certified Associate Java SE 8 Programmer (1Z0-808)
@@ -144,6 +145,14 @@ You are more than welcome to contribute, but please keep in mind few rules:
 * You will be able to now run the plugin `Debug -> Start Debugging (F5)` command.
 
 Please also see [Test your plugins locally](https://npp-user-manual.org/docs/plugins/#test-your-plugins-locally) under Notepad++ User Manual - Plugins.
+
+## Releasing new plugin version
+
+* New version needs to be set under:
+    * `NppPluginMain.rc` in `VS_VERSION_INFO`
+    * [appveyor.yml](appveyor.yml) in `version`
+* [AppVeyor](appveyor.yml) is configured to release new version under [GitHub Releases](https://github.com/dominikcebula/npp-java-plugin/releases) after pushing new GitHub Tag.
+* 
 
 # Author
 
