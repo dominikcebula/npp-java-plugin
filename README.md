@@ -151,8 +151,15 @@ Please also see [Test your plugins locally](https://npp-user-manual.org/docs/plu
 * New version needs to be set under:
     * `NppPluginMain.rc` in `VS_VERSION_INFO`
     * [appveyor.yml](appveyor.yml) in `version`
-* [AppVeyor](appveyor.yml) is configured to release new version under [GitHub Releases](https://github.com/dominikcebula/npp-java-plugin/releases) after pushing new GitHub Tag.
-* 
+* Create and push new Git Tag
+* GitHub Release will be created automatically - [AppVeyor](appveyor.yml) is configured to release new version under [GitHub Releases](https://github.com/dominikcebula/npp-java-plugin/releases) after pushing new Git Tag
+* Calculate SHA-256 for newly released zip archives (will be required to update plugin list in [nppPluginList](https://github.com/notepad-plus-plus/nppPluginList)
+* Fork [nppPluginList](https://github.com/notepad-plus-plus/nppPluginList)
+* Update npp-java-plugin in [nppPluginList](https://github.com/notepad-plus-plus/nppPluginList)
+    * Under [pl.x64.json](https://github.com/notepad-plus-plus/nppPluginList/blob/master/src/pl.x64.json#L540)
+	* Under [pl.x86.json](https://github.com/notepad-plus-plus/nppPluginList/blob/master/src/pl.x86.json#L581)
+* Create PR for forked repo
+* Wait for to get merged
 
 # Author
 
