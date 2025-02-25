@@ -6,7 +6,7 @@
 namespace NppJavaPlugin {
 
 	std::wstring GetLastErrorAsString();
-	int PixelsToTwips(HWND hWnd, int nPixels);
+	int PixelsToTwips(int nPixels);
 	TCHAR* wstringAsTChar(std::wstring str);
 	std::string wstringAsString(std::wstring str);
 	std::wstring getEnvVariableValue(std::wstring variableName);

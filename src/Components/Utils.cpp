@@ -5,6 +5,7 @@
 namespace NppJavaPlugin {
 
 	constexpr int PER_INCH_VALUE = 1440;
+	constexpr int DPI_VALUE = 96;
 	constexpr char FILE_NAME_EXTENSION_SEPARATOR = '.';
 
 	std::wstring GetLastErrorAsString()
@@ -25,18 +26,10 @@ namespace NppJavaPlugin {
 		}
 	}
 
-	int PixelsToTwips(HWND hWnd, int pixels)
+	int PixelsToTwips(int pixels)
 	{
-		int twips = 0;
-
-		HDC hDC = GetDC(hWnd);
-		if (hDC != NULL)
-		{
-			twips = MulDiv(pixels, PER_INCH_VALUE, GetDeviceCaps(hDC, LOGPIXELSY));
-			ReleaseDC(hWnd, hDC);
-		}
-
-		return abs(twips);
+		// Assumes hard-coded DPI value to allow Windows Text Auto-Scaling for High-DPI devices
+		return abs(MulDiv(pixels, PER_INCH_VALUE, DPI_VALUE));
 	}
 
 	TCHAR* wstringAsTChar(std::wstring str) {
@@ -125,7 +118,7 @@ namespace NppJavaPlugin {
 			delete[] fileVersionInfoData;
 			return std::wstring();
 		}
-		
+
 		std::wstring versionString = std::wstring()
 			.append(std::to_wstring(HIWORD(fileVersionInfo->dwProductVersionMS)))
 			.append(_T("."))

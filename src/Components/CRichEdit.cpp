@@ -16,7 +16,7 @@ namespace NppJavaPlugin {
 		charFormat.cbSize = sizeof(CHARFORMAT);
 		charFormat.dwMask = CFM_SIZE | CFM_FACE;
 		lstrcpyn(charFormat.szFaceName, _T("Courier New"), LF_FACESIZE);
-		charFormat.yHeight = PixelsToTwips(hRichEdit, 13);
+		charFormat.yHeight = PixelsToTwips(13);
 		charFormat.bPitchAndFamily = 1;
 		charFormat.dwEffects = 0;
 
