@@ -1,5 +1,6 @@
 #pragma once
 
+#include <memory>
 #include "Components/ConsoleLogger.h"
 #include "Command.h"
 
