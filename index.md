@@ -145,6 +145,24 @@ You are more than welcome to contribute, but please keep in mind few rules:
 * You will be able to now run the plugin `Debug -> Start Debugging (F5)` command.
 
 Please also see [Test your plugins locally](https://npp-user-manual.org/docs/plugins/#test-your-plugins-locally) under Notepad++ User Manual - Plugins.
+
+## Releasing new plugin version
+
+* New version needs to be set under:
+    * `NppPluginMain.rc` in `VS_VERSION_INFO`
+    * [appveyor.yml](appveyor.yml) in `version`
+* Create and push new Git Tag
+* GitHub Release will be created automatically - [AppVeyor](appveyor.yml) is configured to release new version under [GitHub Releases](https://github.com/dominikcebula/npp-java-plugin/releases) after pushing new Git Tag
+* Calculate SHA-256 for newly released zip archives (will be required to update plugin list in [nppPluginList](https://github.com/notepad-plus-plus/nppPluginList)
+* Fork [nppPluginList](https://github.com/notepad-plus-plus/nppPluginList)
+* Update npp-java-plugin in [nppPluginList](https://github.com/notepad-plus-plus/nppPluginList)
+    * Under [pl.x64.json](https://github.com/notepad-plus-plus/nppPluginList/blob/master/src/pl.x64.json#L540)
+	* Under [pl.x86.json](https://github.com/notepad-plus-plus/nppPluginList/blob/master/src/pl.x86.json#L581)
+* Create PR for forked repo
+* Wait for to get merged
+
+More infomration available under [Rules for adding your plugins into list](https://npp-user-manual.org/docs/plugins/#rules-for-adding-your-plugins-into-list) and [Do your PR to join plugin list](https://npp-user-manual.org/docs/plugins/#do-your-pr-to-join-plugin-list).
+
 # Author
 
 Dominik Cebula <br/>
