@@ -95,9 +95,16 @@ If you need more information, more precise instructions can be found here: https
    * Java Console - ability to configure font, font size, colors for info, warnings, errors
    * Configuration Dialog - user can decide if application should execute in a separate command prompt or if it should execute under Plugin Java Console
 
-# Contribution Rules
+# Contribution
+
+## Inroduction
+
+Get familiar with [Notepad++ User Manual - Plugins](https://npp-user-manual.org/docs/plugins/).
+
+## Rules
 
 You are more than welcome to contribute, but please keep in mind few rules:
+
 * Use Modern C++ (C++11, C++17, …)
 * Use Clean Code
 * Use SOLID
@@ -105,6 +112,38 @@ You are more than welcome to contribute, but please keep in mind few rules:
 * Use KISS, DRY, YAGNI
 * Use Component Coupling and Cohesion Principles (REP, CRP, CCP, ADP, SDP, SAP)
 * Don't overdesign
+
+## Building the project
+
+* Clone the repository
+* Install [Visual Studio 2022](https://visualstudio.microsoft.com/thank-you-downloading-visual-studio/?sku=Community&channel=Release&version=VS2022&source=VSLandingPage&passive=false&cid=2030)
+    * Install `Desktop Development with C++` components
+    * During the installation make sure to also select:
+        * `MSVC v141 - VS 2017 C++ x64/x86 build tools`
+        * `C++ CMake tools for Windows`
+        * `MSBuild`
+* Install [Windows 10 SDK, version 1809 (10.0.17763.0)](https://go.microsoft.com/fwlink/p/?LinkID=2033908)
+* Open the `sln` file in Visual Studio.
+* Click `Build` -> `Rebuild Solution`.
+
+## Running plugin with local changes
+
+* Download Notepad++ Portable Installation compatible with Notepad++ debug mode binary
+    * At the time of writing this README.md file, Notepad++ debug mode binary is in version `7.8.1`
+    * You can download compatible version under [npp.7.8.1.bin.x64.zip](https://github.com/notepad-plus-plus/notepad-plus-plus/releases/download/v7.8.1/npp.7.8.1.bin.x64.zip)
+    * Extract zip file and place content of it under folder that will be referenced in this document as `<NPP_INST_DIR>`
+* Download [Notepad++ debug mode binary](https://notepad-plus-plus.org/assets/pluginListTestTools/npp.debug.x64.zip)
+* Replace `notepad++.exe` in your Notepad++ installation directory with downloaded `notepad++.exe`
+* Download [WinGUP](https://notepad-plus-plus.org/assets/pluginListTestTools/wingup.release.x64.zip)
+* Replace `GUP.exe` located in `updater` folder of your Notepad++ installation directory with downloaded `GUP.exe`
+* Download Plugin list from [pl.x64.json](https://github.com/notepad-plus-plus/nppPluginList/blob/master/src/pl.x64.json) and place it under `<NPP_INST_DIR>\plugins\Config\nppPluginList.json`
+* Create folder `<NPP_INST_DIR>\plugins\NppJavaPlugin`
+* Inside the folder `<NPP_INST_DIR>\plugins\NppJavaPlugin` create a symlink named `NppJavaPlugin.dll` pointing to the `NppJavaPlugin.dll` of the project build output directory `vs.proj\x64\Debug\NppJavaPlugin.dll`
+    * Example: `mklink NppJavaPlugin.dll <NPP_PLUGIN_CHECKOUT_DIR>\npp-java-plugin\vs.proj\x64\Debug\NppJavaPlugin.dll`
+* To run the plugin under debug mode using Notepad++ debug mode binary you will need to change run configuration settings. Go to project properties, `Configuration Properties` -> `Debugging` and change `Command` to `<NPP_INST_DIR>\notepad++.exe`
+* You will be able to now run the plugin `Debug -> Start Debugging (F5)` command.
+
+Please also see [Test your plugins locally](https://npp-user-manual.org/docs/plugins/#test-your-plugins-locally) under Notepad++ User Manual - Plugins.
 
 # Author
 
