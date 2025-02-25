@@ -161,6 +161,8 @@ Please also see [Test your plugins locally](https://npp-user-manual.org/docs/plu
 * Create PR for forked repo
 * Wait for to get merged
 
+More infomration available under [Rules for adding your plugins into list](https://npp-user-manual.org/docs/plugins/#rules-for-adding-your-plugins-into-list) and [Do your PR to join plugin list](https://npp-user-manual.org/docs/plugins/#do-your-pr-to-join-plugin-list).
+
 # Author
 
 Dominik Cebula <br/>
