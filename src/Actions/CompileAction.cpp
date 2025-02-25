@@ -46,7 +46,7 @@ namespace NppJavaPlugin {
 
 	bool CompileAction::Validate(std::shared_ptr<Configuration> configuration, DocumentInfo currentDocumentInfo) {
 		if (!configurationValidator->Validate(configuration)) {
-			consoleLogger->Error(_T("Detected invalid configuration, compile action will not be perfomred."));
+			consoleLogger->Error(_T("Detected invalid configuration, compile action will not be performed."));
 			return false;
 		}
 
